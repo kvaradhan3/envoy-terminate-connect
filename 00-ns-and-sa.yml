@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: envoy-lb
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: envoy-sa
+  namespace: envoy-lb
